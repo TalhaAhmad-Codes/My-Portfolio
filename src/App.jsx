@@ -1,23 +1,19 @@
-import { Routes, Route, Link } from "react-router-dom";
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { Home } from "./components/Home";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
-    <div className="min-h-screen p-8 bg-slate-50 text-slate-900">
-      {/* Navigation and interactive links go OUTSIDE <Routes> */}
-      <nav className="mb-6">
-        <Link to="/" className="text-blue-600 hover:underline font-semibold">
-          Welcome to my Portfolio
-        </Link>
-      </nav>
+    <div className="min-h-screen bg-white text-slate-900 antialiased dark:bg-slate-950 dark:text-white">
+      <Navbar />
 
-      {/* <Routes> ONLY contains <Route> components */}
       <Routes>
-        <Route
-          path="/"
-          element={<div className="text-2xl font-bold">Hello, World!</div>}
-        />
+        <Route path="/" element={<Home />} />
       </Routes>
+
+      <footer className="border-t border-slate-200 px-6 py-6 text-center text-sm text-slate-500 dark:border-slate-800 dark:text-slate-400">
+        © 2026 Talha Ahmad. All Rights are Reserved.
+      </footer>
     </div>
   );
 }
