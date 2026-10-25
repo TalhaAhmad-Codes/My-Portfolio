@@ -1,6 +1,6 @@
 import profileImage from "../assets/profile-pic.png";
-import ScrollReveal from "./ScrollReveal";
-import SkillsMarquee from "./SkillsMarquee";
+import ScrollReveal from "./ScrollReveal.jsx";
+import SkillsMarquee from "./SkillsMarquee.jsx";
 
 export function Home() {
   return (
