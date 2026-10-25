@@ -1,6 +1,7 @@
 import profileImage from "../assets/profile-pic.png";
 import ScrollReveal from "./ScrollReveal.jsx";
 import SkillsMarquee from "./SkillsMarquee.jsx";
+import Projects from "./Projects.jsx";
 
 export function Home() {
   return (
@@ -104,30 +105,10 @@ export function Home() {
       </section>
 
       {/* Moving technology logos */}
-      <ScrollReveal delay={75} >
       <SkillsMarquee />
-      </ScrollReveal>
 
       {/* Projects Section */}
-      <section
-        id="projects"
-        className="border-t border-slate-200 dark:border-slate-800"
-      >
-        <ScrollReveal
-          className="mx-auto max-w-6xl px-6 py-16 sm:px-8 lg:px-12"
-          delay={100}
-        >
-          <p className="text-sm font-medium text-slate-500 dark:text-slate-400">
-            SELECTED WORK
-          </p>
-          <h2 className="mt-3 text-2xl font-semibold tracking-tight text-slate-950 dark:text-white">
-            Projects worth exploring.
-          </h2>
-          <p className="mt-3 text-slate-600 dark:text-slate-400">
-            We'll build the project showcase in a later step.
-          </p>
-        </ScrollReveal>
-      </section>
+      <Projects />
 
       {/* Contact - Section */}
       <section
