@@ -104,7 +104,9 @@ export function Home() {
       </section>
 
       {/* Moving technology logos */}
+      <ScrollReveal delay={75} >
       <SkillsMarquee />
+      </ScrollReveal>
 
       {/* Projects Section */}
       <section

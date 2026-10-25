@@ -40,7 +40,7 @@ const skills = [
   // { name: "Azure", icon: "/src/assets/skills/azure.png" },
   // { name: "AWS", icon: "/src/assets/skills/aws.png" },
   { name: "Redis", icon: "/src/assets/skills/redis.png" },
-  { name: "RESTful APIs", icon: "/src/assets/skills/rest-api.png" },
+  // { name: "RESTful APIs", icon: "/src/assets/skills/rest-api.png" },
   // { name: "GraphQL", icon: "/src/assets/skills/graph-ql.png" },
 ];
 
@@ -66,8 +66,8 @@ function SkillsMarquee() {
                 src={skill.icon}
                 alt=""
                 title={skill.name}
-                width="36"
-                height="36"
+                width="50"
+                height="50"
                 loading="lazy"
                 decoding="async"
                 draggable="false"
