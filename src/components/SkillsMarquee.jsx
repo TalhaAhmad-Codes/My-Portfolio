@@ -10,15 +10,15 @@ const skills = [
   // Frameworks and libraries
   { name: ".NET", icon: "/src/assets/skills/dotnet.png" },
   { name: "React", icon: "/src/assets/skills/react.png" },
-  { name: "Angular", icon: "/src/assets/skills/angular.png" },
+  // { name: "Angular", icon: "/src/assets/skills/angular.png" },
   { name: "Node.js", icon: "/src/assets/skills/node-js.png" },
   { name: "Express.js", icon: "/src/assets/skills/express-js.png" },
   { name: "Bootstrap", icon: "/src/assets/skills/bootstrap.png" },
   { name: "Tailwind CSS", icon: "/src/assets/skills/tailwind-css.png" },
-  { name: "Scikit Learn", icon: "/src/assets/skills/sk-learn.png" },
-  { name: "Pandas", icon: "/src/assets/skills/pandas.png" },
-  { name: "NumPy", icon: "/src/assets/skills/numpy.png" },
-  { name: "PyTorch", icon: "/src/assets/skills/pytorch.png" },
+  // { name: "Scikit Learn", icon: "/src/assets/skills/sk-learn.png" },
+  // { name: "Pandas", icon: "/src/assets/skills/pandas.png" },
+  // { name: "NumPy", icon: "/src/assets/skills/numpy.png" },
+  // { name: "PyTorch", icon: "/src/assets/skills/pytorch.png" },
   { name: "Fast API", icon: "/src/assets/skills/fast-api.png" },
 
   // Databases
@@ -37,11 +37,11 @@ const skills = [
   { name: "Git", icon: "/src/assets/skills/git.png" },
   { name: "GitHub", icon: "/src/assets/skills/github.png" },
   { name: "Docker", icon: "/src/assets/skills/docker.png" },
-  { name: "Azure", icon: "/src/assets/skills/azure.png" },
-  { name: "AWS", icon: "/src/assets/skills/aws.png" },
+  // { name: "Azure", icon: "/src/assets/skills/azure.png" },
+  // { name: "AWS", icon: "/src/assets/skills/aws.png" },
   { name: "Redis", icon: "/src/assets/skills/redis.png" },
   { name: "RESTful APIs", icon: "/src/assets/skills/rest-api.png" },
-  { name: "GraphQL", icon: "/src/assets/skills/graph-ql.png" },
+  // { name: "GraphQL", icon: "/src/assets/skills/graph-ql.png" },
 ];
 
 function SkillsMarquee() {
