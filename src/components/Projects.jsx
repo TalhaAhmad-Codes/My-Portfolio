@@ -20,8 +20,7 @@ export default function Projects() {
           </h2>
 
           <p className="mt-3 max-w-2xl leading-7 text-slate-600 dark:text-slate-400">
-            A selection of projects showcasing my approach to building
-            thoughtful, responsive, and practical digital experiences.
+            A selection of projects showcasing my approach of building professional digital experiences.
           </p>
         </ScrollReveal>
 
