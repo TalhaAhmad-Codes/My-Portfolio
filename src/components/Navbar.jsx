@@ -14,12 +14,15 @@ export function Navbar() {
         aria-label="Main navigation"
         className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 sm:px-8 lg:px-12"
       >
-        <Link
-          to="/"
-          className="text-lg font-semibold tracking-tight text-slate-950 dark:text-white"
+        <a
+          href="/Talha-Ahmad--Full-Stack-Development--CV.pdf"
+          download="Talha-Ahmad--Full-Stack-Development--CV.pdf"
+          aria-label="Download my resume"
+          title="Download my resume"
+          className="text-lg font-semibold tracking-tight text-slate-950 transition-opacity duration-200 hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-4 dark:text-white dark:focus-visible:ring-offset-slate-950"
         >
           TA<span className="text-emerald-500">.</span>
-        </Link>
+        </a>
 
         <div className="flex items-center gap-5 sm:gap-8">
           {links.map((link) => (
