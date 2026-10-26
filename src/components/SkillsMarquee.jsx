@@ -36,7 +36,7 @@ const skills = [
   { name: "Git", icon: "git.png" },
   { name: "GitHub", icon: "github.png" },
   { name: "Docker", icon: "docker.png" },
-  { name: "Redis", icon: "redis.png" },
+  // { name: "Redis", icon: "redis.png" },
 ];
 
 function SkillsMarquee() {
