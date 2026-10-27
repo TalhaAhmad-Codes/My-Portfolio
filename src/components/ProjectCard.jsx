@@ -3,7 +3,7 @@ import ScrollReveal from "./ScrollReveal";
 export function ProjectCard({ title, description, skills = [], delay = 0 }) {
   return (
     <ScrollReveal delay={delay} className="h-full">
-      <article className="group relative h-full overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:border-slate-300 hover:shadow-xl hover:shadow-slate-900/5 dark:border-slate-800 dark:bg-slate-900/40 dark:hover:border-slate-700 dark:hover:shadow-black/20 sm:p-7">
+      <article className="group relative h-full overflow-hidden rounded-2xl border border-[#e2e8df] bg-white p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:border-emerald-200 hover:shadow-xl hover:shadow-emerald-900/5 shadow-sm dark:border-slate-800 dark:bg-slate-900/40 dark:hover:border-slate-700 dark:hover:shadow-black/20 sm:p-7">
         {/* Subtle decorative accent */}
         <div
           aria-hidden="true"
@@ -30,7 +30,7 @@ export function ProjectCard({ title, description, skills = [], delay = 0 }) {
               {skills.map((skill) => (
                 <li
                   key={skill}
-                  className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600 transition-colors duration-200 group-hover:border-slate-300 dark:border-slate-700 dark:bg-slate-800/70 dark:text-slate-300 dark:group-hover:border-slate-600"
+                  className="rounded-full border border-[#dce5da] bg-[#f0f5ef] px-3 py-1 text-xs font-medium text-[#526357] transition-colors duration-200 group-hover:border-emerald-200 dark:border-slate-700 dark:bg-slate-800/70 dark:text-slate-300 dark:group-hover:border-slate-600"
                 >
                   {skill}
                 </li>

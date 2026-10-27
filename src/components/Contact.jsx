@@ -26,14 +26,13 @@ export default function Contact() {
 
         <div className="mt-10 grid grid-cols-1 gap-10 lg:mt-12 lg:grid-cols-[minmax(0,1.2fr)_minmax(260px,0.8fr)] lg:gap-16">
           <ScrollReveal delay={150}>
-            <div className="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900/40 sm:p-7">
+            <div className="rounded-2xl border border-slate-200 hover:border-emerald-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900/40 sm:p-7">
               <h3 className="text-lg font-semibold text-slate-950 dark:text-white">
                 Send me a message
               </h3>
 
               <p className="mt-2 mb-6 text-sm leading-6 text-slate-600 dark:text-slate-400">
-                Fill in the details below and your email application will open
-                with your message ready to send.
+                Fill in the details below and your email application will be ready to send.
               </p>
 
               <ContactForm />

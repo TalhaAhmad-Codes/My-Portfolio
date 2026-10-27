@@ -4,7 +4,7 @@ import { Navbar } from "./components/Navbar.jsx";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white text-slate-900 antialiased dark:bg-slate-950 dark:text-white">
+    <div className="min-h-screen bg-[#f5f6f2] text-[#17211b] transition-colors duration-300 antialiased dark:bg-gray-950 dark:text-white">
       <Navbar />
 
       <Routes>
