@@ -79,7 +79,7 @@ export default function HeroSection() {
           />
 
           {/* Profile photo */}
-          <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-900">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-emerald-200 bg-white dark:border-slate-800 dark:bg-slate-900">
             <img
               src={profileImage}
               alt="Portrait of Talha Ahmad"

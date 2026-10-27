@@ -163,7 +163,7 @@ export default function ContactForm() {
       {/* Send Button */}
       <button
         type="submit"
-        className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-slate-950 px-5 py-3.5 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-sky-600 hover:shadow-lg hover:shadow-sky-500/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500 focus-visible:ring-offset-2 dark:bg-emerald-300 dark:text-slate-950 dark:hover:bg-sky-400 motion-reduce:transform-none motion-reduce:transition-none sm:w-auto"
+        className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-slate-950 px-5 py-3.5 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-sky-600 hover:shadow-lg hover:shadow-sky-500/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500 focus-visible:ring-offset-2 dark:bg-emerald-200 dark:text-slate-950 dark:hover:bg-sky-400 motion-reduce:transform-none motion-reduce:transition-none sm:w-auto"
       >
         {status === "Sending your message..." ? "Sending..." : "Send Message"}
         <span aria-hidden="true">↗</span>
