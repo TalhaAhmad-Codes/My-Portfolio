@@ -109,7 +109,7 @@ body {
   display: flex;
   width: max-content;
   align-items: center;
-  gap: 3.5rem;
+  gap: 3.25rem;
   animation: skills-scroll 30s linear infinite;
 }
 

@@ -70,7 +70,7 @@ function SkillsMarquee() {
                     loading="lazy"
                     decoding="async"
                     draggable="false"
-                    className="h-8 w-8 object-contain opacity-70 grayscale transition-all duration-300 group-hover:scale-110 group-hover:opacity-100 group-hover:grayscale-0 sm:h-9 sm:w-9"
+                    className="h-8 w-8 object-contain opacity-70 grayscale transition-all duration-300 group-hover:scale-120 group-hover:opacity-100 group-hover:grayscale-0 sm:h-9 sm:w-9"
                   />
                 ) : (
                   <span
