@@ -18,6 +18,8 @@ const projects = [
     description:
       "A smart centralized communication ecosystem for academic institutions to reduce manual workload and human errors. It's my final year project and I'm leading a team of 3 developers following vertical slice architecture (VSA) and planning to scale it in future as SaaS.",
     skills: ["C#", "ASP.NET Web APIs", "PostgreSQL", "CQRS", "Hangfire"],
+    githubUrl: "https://github.com/TalhaAhmad-Codes/SACP-Backend",
+    liveUrl: "https://sacp-pi.vercel.app/",
   },
   {
     id: "punjab-comp",
@@ -25,13 +27,39 @@ const projects = [
     description:
       "A desktop based solution for my Father's daily routine work and manage his business efficiently.",
     skills: ["C#", ".NET", "WPF", "MVVM", "Entity Framework", "SQLite"],
+    githubUrl: "https://github.com/TalhaAhmad-Codes/Punjab-Computer",
+  },
+  {
+    id: "portfolio",
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website built to showcase my skills, experiences, and projects to global audience. The sole purpose is to implement responsive frontend design using modern technologies.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "TailwindCSS",
+      "Email JS",
+      "Vercel (Cloud)",
+      "Responsive Design",
+    ],
+    githubUrl: "https://github.com/TalhaAhmad-Codes/My-Portfolio",
+    liveUrl: "https://talha-ahmad-portfolio.vercel.app/",
   },
   {
     id: "blogora",
     title: "Blogora",
     description:
-      "A simple blogging website built with a friend in collaboration. Implemented minimal APIs in the backend following fast development workflow.",
-    skills: ["C#", "ASP.NET Web APIs", "Entity Framework", "PostgreSQL"],
+      "A simple blogging website built with a friend in collaboration. Implemented minimal APIs in the backend following fast development workflow. It was a practice project to practice communication between client and server via APIs.",
+    skills: [
+      "C#",
+      "ASP.NET Web APIs",
+      "Entity Framework",
+      "PostgreSQL",
+      "Railway (Cloud)",
+    ],
+    githubUrl: "https://github.com/TalhaAhmad-Codes/Blogora",
   },
 ];
 
