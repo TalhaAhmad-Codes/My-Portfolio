@@ -30,11 +30,35 @@ const projects = [
     githubUrl: "https://github.com/TalhaAhmad-Codes/Punjab-Computer",
   },
   {
+    id: "portfolio",
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website built to showcase my skills, experiences, and projects to global audience. The sole purpose is to implement responsive frontend design using modern technologies.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "TailwindCSS",
+      "Email JS",
+      "Vercel (Cloud)",
+      "Responsive Design",
+    ],
+    githubUrl: "https://github.com/TalhaAhmad-Codes/My-Portfolio",
+    liveUrl: "https://talha-ahmad-portfolio.vercel.app/",
+  },
+  {
     id: "blogora",
     title: "Blogora",
     description:
       "A simple blogging website built with a friend in collaboration. Implemented minimal APIs in the backend following fast development workflow. It was a practice project to practice communication between client and server via APIs.",
-    skills: ["C#", "ASP.NET Web APIs", "Entity Framework", "PostgreSQL"],
+    skills: [
+      "C#",
+      "ASP.NET Web APIs",
+      "Entity Framework",
+      "PostgreSQL",
+      "Railway (Cloud)",
+    ],
     githubUrl: "https://github.com/TalhaAhmad-Codes/Blogora",
   },
 ];
