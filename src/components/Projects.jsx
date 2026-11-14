@@ -20,7 +20,8 @@ export default function Projects() {
           </h2>
 
           <p className="mt-3 max-w-2xl leading-7 text-slate-600 dark:text-slate-400">
-            A selection of projects showcasing my approach of building professional digital experiences.
+            A selection of projects showcasing my approach of building
+            professional digital experiences.
           </p>
         </ScrollReveal>
 
@@ -30,9 +31,10 @@ export default function Projects() {
             {projects.map((project, index) => (
               <ProjectCard
                 key={project.id}
-                title={project.title}
-                description={project.description}
-                skills={project.skills}
+                {...project}
+                // title={project.title}
+                // description={project.description}
+                // skills={project.skills}
                 delay={150 + index * 100}
               />
             ))}

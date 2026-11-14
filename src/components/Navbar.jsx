@@ -1,5 +1,3 @@
-
-
 export function Navbar() {
   const links = [
     { label: "Home", href: "#home" },
@@ -9,7 +7,7 @@ export function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/80 backdrop-blur-3xl dark:border-slate-800/80 dark:bg-slate-950/85">
+    <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/80 backdrop-blur-3xl dark:border-slate-800/80 dark:bg-[#080d1a]">
       <nav
         aria-label="Main navigation"
         className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 sm:px-8 lg:px-12"
